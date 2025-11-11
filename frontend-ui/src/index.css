@@ -1,0 +1,10 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss/theme" layer(theme);
+
+
+@layer theme {
+    html, body, #root {
+        height: 100%;
+    }
+}
