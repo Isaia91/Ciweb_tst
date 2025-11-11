@@ -70,7 +70,7 @@ services:
       MYSQL_DATABASE: ciweb
       MYSQL_USER: ciweb
       MYSQL_PASSWORD: ciweb
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: ciweb
     ports:
       - "3306:3306"
     volumes:
